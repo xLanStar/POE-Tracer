@@ -1,4 +1,4 @@
-from bot.instance import bot
+from api import bot
 from dotenv import dotenv_values
 
 env = dotenv_values('.env')
